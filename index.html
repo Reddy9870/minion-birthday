@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+   <title>Happy Birthday Minion</title>
+</head>
+<style>
+
+    #result{
+        height:auto;
+        width:auto;
+        border: 1.5px solid;
+        border-radius: 5px;
+        background-color:white;
+        padding:25px;
+        margin-top:70px;
+        margin-bottom:25px;
+    }
+
+    img{
+        margin: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #quote{
+        font-size: 50px;
+        font-weight: bold;
+        font-family: cursive;
+        font-style: italic;
+    }
+</style>
+<body style="background-color: aqua;">
+    <center><h1> Can you please open it in desktop site...</h1></center>
+    
+    <center><button onclick="cm()" id="result"><center id="quote">Click Me minion</center><img src="./Monkey.png"></button></center>
+   
+   <script>
+      var wishes = "Happy birthday! I hope you have a great day! All the best on your special day! On this special day, I wish you all the very best, all the joy you can ever have and may you be blessed abundantly today, tomorrow and the days to come! Happy birthday! Uff eka enthe minion enthaki minchi nenu akuva chepalenu lee edo ala matter bagundi ani copy paste chesa😁😂 but have a good day and all the very best for your bright future manchiga job kotti sagam lo sagam salary naku estharu ani korukuntunanu.... sallaga 100% years crazy ga vundu...! Once again happy birthday minion..."
+      function cm(){
+        var i= wishes
+        document.write(i)
+        document.body.style.backgroundImage = "url('happy.png')";
+        document.body.style.backgroundRepeat="no-repeat"
+        document.body.style.backgroundPosition = "center center";
+        document.body.style.backgroundSize = "800px 400px";
+
+        let ding = new Audio('song.mp3');
+        ding.play();
+      }
+   </script>
+</body>
+</html>
